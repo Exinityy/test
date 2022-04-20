@@ -1,0 +1,66 @@
+
+
+.tn{
+    width: 100%;
+}
+
+.video-title{
+    margin-top: 0;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 8px;;
+}
+
+.video-auth,
+.stats{     /*to target multiple elements*/
+   font-size: 12px;
+   color: rgb(97, 97, 97);
+   margin-bottom: 4px;
+}
+
+
+.pfp{
+    width: 40px;
+    border-radius: 20px;
+}
+
+
+.thumb-row{
+    margin-bottom: 13px;
+    position: relative;
+}
+
+.video-info-grid{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+}
+
+.video-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 40px;
+}
+
+.holder{
+    /*other propertis of image element*/
+    object-fit: contain;
+    object-position: bottom;
+}
+
+.video-time{
+    background-color: rgba(0, 0, 0, 0.733);
+    color: white;
+    position: absolute;
+    bottom: 8px;
+    right:5px;
+    font-family: Roboto, Arial;
+    font-size: 13px;
+    font-weight: 500;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-right: 5px;
+    padding-left: 5px;
+    border-radius: 4px;
+}
